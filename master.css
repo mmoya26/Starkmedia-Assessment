@@ -1,6 +1,7 @@
 :root {
     --main--bg-color: rgb(170, 170, 170);
     --main-green-color: #006942;
+    --main-white-color: #fff;
 }
 
 * {
@@ -16,6 +17,14 @@ body {
 
 a {
     text-decoration: none;
+
+}
+
+.font_awesome_icons {
+    background-color: transparent;
+    color: #ccc;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 
@@ -23,7 +32,7 @@ a {
 
 .promo_section {
     display: flex;
-    background-color: white;
+    background-color: var(--main-white-color);
     height: 4rem;
     align-items: center;
     justify-content: center;
@@ -38,7 +47,7 @@ a {
 
 .promo_carousell_button {
     border: 1px solid #ccc;
-    background-color: white;
+    background-color: var(--main-white-color);
     width: 1rem;
     height: 1rem;
     border-radius: 3.125rem;
@@ -53,16 +62,62 @@ a {
 
 .promo_text {
     color: var(--main-green-color);
-    font-weight: bold;
+    font-size: 1rem;
 }
 
 #x_icon {
     color: #ccc;
-    cursor: pointer;
 }
 
-.font_awesome_icons {
-    background-color: transparent;
-    color: red;
-    font-size: 1.25rem;
+/* Header Section */
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.563rem;
+}
+
+.logo_nav_separator {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin-left: 3.75rem;
+}
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 98%;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav li a {
+    font-size: 1.125rem;
+    color: var(--main-white-color);
+    margin-right: 2.5rem;
+}
+
+.login_button {
+    border: 3px solid var(--main-white-color);
+    padding: 10px 25px;
+    text-transform: uppercase;
+    color: var(--main-white-color);
+    margin-left: 1.875rem;
+}
+
+.magnifying_icon {
+    color: var(--main-white-color);
+}
+
+.header_icon_login_seperator {
+    display: flex;
+    align-items: center;
 }
