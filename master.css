@@ -17,8 +17,15 @@ img {
     width: 100%;
 }
 
+html {
+    overflow-x: hidden;  
+}
+
 body {
     background-color: var(--main--bg-color);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
 }
 
 a {
@@ -267,12 +274,14 @@ header {
     color: var(--main-green-color);
     font-size: 1.375rem;
     margin-top: 0.625rem;
+    text-align: center;
 }
 
 .why_section_circle_text {
     margin-top: 0.625rem;
     font-size: 1.125rem;
     color: var(--regular-text-color);
+    text-align: center;
 }
 
 .why_section_circle_images:hover {
