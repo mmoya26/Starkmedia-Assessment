@@ -293,11 +293,13 @@ header {
     display: flex;
     justify-content: space-around;
     width: 65%;
+    flex-wrap: wrap;
 }
 
 .personal_banking_section_title {
     font-size: 2.5rem;
     color: var(--titles-grey-color);
+    text-align: center;
 }
 
 .personal_banking_section_options_list {
@@ -493,4 +495,88 @@ footer {
     margin-left: 10.625rem;
     margin-right: 10.625rem;
     margin-top: 5.625rem;
+}
+
+
+.display_nne {
+    display: none;
+}
+
+.bars {
+    color: white;
+    margin-left: 1.875rem;
+    display: none;
+}
+
+@media (max-width: 1650px) { 
+    .personal_banking_section_products {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1450px) { 
+    .personal_banking_section_products {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1064px) { 
+    .personal_banking_section_products {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1250px) { 
+    .personal_banking_section_products {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1125px) { 
+
+    .product {
+        flex-basis: 80%;
+    }
+
+    .product:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    .product:nth-child(3) {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 750px) { 
+    .personal_banking_section_title {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 1350px) { 
+    .why_section_circles {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1080px) {
+    /* Header Section */
+
+    .nav li a {
+        margin-right: 1.5rem;
+    }
+
+    .bars {
+        display: block;        
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header_wrapper {
+        max-width: 90%;
+    }
 }
