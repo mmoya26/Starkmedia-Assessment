@@ -229,6 +229,7 @@ header {
     color: var(--main-green-color);
     font-size: 2.5rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .why_section_subtitle {
@@ -245,6 +246,7 @@ header {
     justify-content: space-around;
     margin-top: 3.75rem;
     width: 80%;
+    flex-wrap: wrap;
 }
 
 .why_section_circle {
@@ -517,6 +519,25 @@ footer {
 @media (max-width: 1450px) { 
     .personal_banking_section_products {
         width: 85%;
+    }
+}
+
+@media (max-width: 1051px) { 
+    .why_section_circle:nth-child(3) {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 765px) { 
+    .why_section_circle:nth-child(2) {
+        margin-top: 50px;
+    }
+    .why_section_circle {
+        flex-basis: 100%;
+    }
+
+    .why_section_title {
+        font-size: 1.75rem;
     }
 }
 
