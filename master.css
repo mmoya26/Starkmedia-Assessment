@@ -98,6 +98,7 @@ a {
     justify-content: space-between;
     width: 100%;
     max-width: 98%;
+    align-items: center;
 }
 
 .promo_carousell_button_active {
@@ -517,6 +518,20 @@ footer {
     color: white;
     margin-left: 1.875rem;
     display: none;
+}
+
+@media (max-width: 390px) {
+    .promo_section_carousell_buttons {
+        display: none;
+    }
+
+    .promo_section_items_wrapper {
+        max-width: 90%;
+    }
+
+    #x_icon {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 1650px) { 
