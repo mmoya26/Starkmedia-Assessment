@@ -35,8 +35,8 @@ a {
 .carousell_button {
     border: 1px solid #ccc;
     background-color: transparent;
-    width: 1rem;
-    height: 1rem;
+    width: .7rem;
+    height: .7rem;
     border-radius: 3.125rem;
     cursor: pointer;
     margin-right: .2rem;
@@ -166,7 +166,7 @@ header {
 /* Hero Section */
 
 .hero_section {
-    background: url(./Hero_Section_Image.png);
+    background: url(./media/hero_section_image.png);
     background-repeat: no-repeat;
     background-position-y: center;
     background-size: cover;
