@@ -289,7 +289,7 @@ header {
     padding: 3rem 0;
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 65%;
 }
 
 .personal_banking_section_title {
@@ -357,6 +357,8 @@ header {
     color: #7e7e7e;
     border-bottom: 1px solid #ccc;
     padding: .75em 0 .75em 30px;
+    background: transparent url(./check-solid.svg) left center no-repeat;
+    background-size: 1rem 1rem;
 }
 
 .product_detail:nth-child(1) {
