@@ -279,11 +279,10 @@ header {
 .personal_banking_section {
     background-color: #f5f5f5;
     margin-top: 4.688rem;
-    padding-top: 4.688rem;
+    padding: 4.688rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 4.688rem;
 }
 
 .personal_banking_section_products {
@@ -382,4 +381,49 @@ header {
 
 .products_carousell_button_active {
     background-color: var(--regular-text-color);
+}
+
+/* Resources Section */
+
+.resources_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.688rem;
+}
+
+.resources_section_title {
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.resources_section_subtitle {
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 2.25rem;
+    color: var(--regular-text-color);
+}
+
+.resources_section_carousell {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.resources_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.resources_card_image {
+    width: 340px;
+    max-height: 280px;
+}
+
+.resources_card_heading {
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--regular-text-color);
 }
