@@ -182,7 +182,10 @@ header {
 }
 
 .hero_content {
-    margin: 250px 0px 0px 150px;
+    padding: 200px 0px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hero_section_title {
@@ -518,6 +521,7 @@ footer {
     }
 
     .hero_content {
+        padding: 100px 0px 0px 0px !important;
         justify-content: flex-start;
         margin: 0;
     }
@@ -646,7 +650,7 @@ footer {
     }
 
     .hero_content {
-        margin: 100px 0px 0px 0px;
+        padding: 150px 0px 0px 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
