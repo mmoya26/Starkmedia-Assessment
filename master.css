@@ -84,6 +84,10 @@ a {
 }
 
 
+.display_none {
+    display: none !important;
+}
+
 /* Promo Section */
 
 .promo_section {
@@ -150,10 +154,45 @@ header {
     list-style: none;
 }
 
+.regular_navbar_item {
+    padding: 0 10px;
+}
+
 .nav li a {
     font-size: 1.125rem;
     color: var(--main-white-color);
-    margin-right: 2.5rem;
+    position: relative;
+}
+
+.dropdown_menu {
+    position: absolute;
+    top: 3rem;
+    left: -2rem;
+    background-color: var(--main-white-color);
+    color: black;
+    width: 90rem;
+    padding: 4rem;
+    display: flex;
+    border: 4px solid #033f72;
+}
+
+.dropdown_column {
+    margin-right: 6.25rem;
+}
+
+.dropdown_column ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_column ul li {
+    padding: 0.5rem 0 0 1rem;
+}
+
+.dropdown_column_title {
+    color: #033f72;
+    font-weight: bold;
+    padding: 1rem;
 }
 
 .login_button {    
