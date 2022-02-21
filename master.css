@@ -174,7 +174,7 @@ header {
 /* Hero Section */
 
 .hero_section {
-    background: url(./media/hero_section_image.png);
+    background-image: linear-gradient(300deg, transparent, rgba(100,167,224,1) 100%), url(./media/hero_section_image.png);
     background-size: cover;
     background-position: 50% 50%;
     height: 800px;
@@ -688,4 +688,11 @@ footer {
         margin: 0;
         justify-content: center;
     }
+
+    .hero_section {
+        background-image: linear-gradient(170deg, transparent, rgba(100,167,224,1) 100%), url(./media/hero_section_image.png);
+    }
 }
+
+
+/* background: linear-gradient(transparent, #64a7e0) */
