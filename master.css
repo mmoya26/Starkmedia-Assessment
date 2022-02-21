@@ -242,7 +242,7 @@ header {
 }
 
 .hero_carousell_buttons_container {
-    margin-top: 1rem;
+    margin-top: 15rem;
 }
 
 .hero_carousell_button_active {
@@ -546,6 +546,9 @@ footer {
 }
 
 @media (max-width: 500px) {
+    .hero_carousell_buttons_container {
+        margin-top: 1rem;
+    }
 
     .hero_section_content_wrapper {
         display: flex;
@@ -572,6 +575,7 @@ footer {
     .hero_section {
         height: 31.25rem;
         background-position: 70% 0;
+        background-image: linear-gradient(180deg, transparent, rgba(100,167,224,1) 100%), url(./media/hero_section_image.png);
     }
 
     .hero_carousell_buttons_container {
@@ -694,6 +698,10 @@ footer {
 
 @media (max-width: 800px) {
 
+    .hero_carousell_buttons_container {
+        margin-top: 1rem;
+    }
+
     .resources_section_title {
         text-align: center;
     }
@@ -741,7 +749,7 @@ footer {
     }
 
     .hero_section {
-        background-image: linear-gradient(180deg, transparent, rgba(100,167,224,1) 70%), url(./media/hero_section_image.png);
+        background-image: linear-gradient(180deg, transparent, rgba(100,167,224,1) 100%), url(./media/hero_section_image.png);
     }
 }
 
