@@ -766,6 +766,18 @@ footer {
     .personal_banking_section_products {
         width: 85%;
     }
+
+    .dropdown_menu {
+        left: -10rem;
+        width: 65rem;
+    }
+}
+
+@media (max-width: 1590px) { 
+    .dropdown_menu {
+        left: -10rem;
+        width: 75rem;
+    }
 }
 
 @media (max-width: 1650px) { 
