@@ -170,7 +170,7 @@ header {
     left: -2rem;
     background-color: var(--main-white-color);
     color: black;
-    width: 90rem;
+    width: 80rem;
     padding: 4rem;
     display: flex;
     border: 4px solid #033f72;
@@ -453,6 +453,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .resources_card {
@@ -541,6 +542,7 @@ footer {
     color: white;
     margin-left: 1.875rem;
     display: none;
+    cursor: pointer;
 }
 
 @media (max-width: 500px) {
@@ -692,6 +694,14 @@ footer {
 
 @media (max-width: 800px) {
 
+    .resources_section_title {
+        text-align: center;
+    }
+
+    .resources_section_subtitle {
+        text-align: center;
+    }
+
     .hero_section_content_wrapper {
         display: flex;
         flex-direction: column;
@@ -739,5 +749,21 @@ footer {
     .dropdown_menu {
         width: 65rem;
         left: -10rem;
+    }
+}
+
+@media (max-width: 1186px) {
+    .resources_card:nth-child(4) {
+        margin-top: 2.5rem;
+    }
+
+    .resources_arrow {
+        display: none;
+    }
+}
+
+@media (max-width: 846px) {
+    .resources_card:nth-child(3) {
+        margin-top: 2.5rem;
     }
 }
