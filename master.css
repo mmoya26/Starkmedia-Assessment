@@ -591,6 +591,13 @@ footer {
 
 /* Media Queries */
 
+@media (max-width: 400px) {
+    section .resource_card .image {
+        height: 145px;
+        width: 225px;
+    }
+}
+
 @media (max-width: 500px) {
 
     .hero_carousell_buttons_container {
