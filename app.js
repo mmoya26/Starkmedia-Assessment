@@ -51,11 +51,15 @@
                 slidesPerView: 1,
                 spaceBetween: 45,
                 slidesPerGroup: 1,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
                 loop: true,
                 loopFillGroupWithBlank: true,
                 navigation: {
-                    nextEl: ".next_arrow",
-                    prevEl: ".prev_arrow",
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
                 },
             });
         } else if(window.innerWidth <= 1400) {
@@ -64,11 +68,15 @@
                 slidesPerView: 2,
                 spaceBetween: 45,
                 slidesPerGroup: 2,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
                 loop: true,
                 loopFillGroupWithBlank: true,
                 navigation: {
-                    nextEl: ".next_arrow",
-                    prevEl: ".prev_arrow",
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
                 },
             });
         } else {
@@ -77,11 +85,15 @@
                 slidesPerView: 3,
                 spaceBetween: 30,
                 slidesPerGroup: 3,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
                 loop: true,
                 loopFillGroupWithBlank: true,
                 navigation: {
-                    nextEl: ".next_arrow",
-                    prevEl: ".prev_arrow",
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
                 },
             });
         }

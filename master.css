@@ -517,6 +517,11 @@ section .resource_card .image img {
     cursor: pointer;
 }
 
+.carousel_arrows {
+    top: 30px;
+    position: relative;
+}
+
 
 /* Footer */
 
@@ -588,13 +593,16 @@ footer {
 }
 
 
+.swiper-pagination {
+    position: relative;
+}
+
 
 /* Media Queries */
 
-@media (max-width: 400px) {
-    section .resource_card .image {
-        height: 145px;
-        width: 225px;
+@media (max-width: 450px) {
+    .swiper-slide {
+        margin-right: 20px !important;
     }
 }
 
@@ -806,6 +814,10 @@ footer {
         width: 65rem;
         left: -10rem;
     }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }
 }
 
 @media (max-width: 1450px) { 
@@ -829,5 +841,10 @@ footer {
 @media (max-width: 1650px) { 
     .personal_banking_section_products {
         width: 75%;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, 
+    .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -20px;
     }
 }
