@@ -588,9 +588,11 @@ footer {
 }
 
 
+
 /* Media Queries */
 
 @media (max-width: 500px) {
+
     .hero_carousell_buttons_container {
         margin-top: 1rem;
     }
@@ -796,12 +798,6 @@ footer {
     .dropdown_menu {
         width: 65rem;
         left: -10rem;
-    }
-}
-
-@media (max-width: 1400px) { 
-    .swiper_slide {
-        width: 50%;
     }
 }
 
