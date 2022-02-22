@@ -28,19 +28,19 @@
         dropDownMenu.classList.add("display_none");
     });
 
-
     const sideBarELement = document.querySelector(".side_bar");
     const barsElement = document.querySelector(".bars");
     const sideBarXIcon = document.querySelector(".side_bar_x");
 
+    // When bar is click remove the display_none class from the side bar element
     barsElement.addEventListener("click", () => {
         sideBarELement.classList.remove("display_none");
     });
 
+    // When the X icon inside the side bar is click add the display_none class to the side bar element
     sideBarXIcon.addEventListener("click", () => {
         sideBarELement.classList.add("display_none");
     });
-
 
     function setSwiper(){
         // User hasn't resized in 500ms

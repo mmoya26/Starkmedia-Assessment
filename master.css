@@ -670,6 +670,14 @@ footer {
     .personal_banking_section_title {
         font-size: 1.75rem;
     }
+
+    .product {
+        flex-basis: 80% !important;
+    }
+
+    .personal_banking_section_products {
+        width: 100%;
+    }
 }
 
 @media (max-width: 765px) { 
@@ -779,20 +787,22 @@ footer {
     }
 }
 
+@media (max-width: 1326px) {
+    .product:nth-child(3) {
+        margin-top: 50px;
+    }
+
+}
+
 @media (max-width: 1125px) { 
 
     .product {
-        flex-basis: 100%;
+        flex-basis: 70%;
     }
 
     .product:nth-child(2) {
         margin-top: 50px;
     }
-
-    .product:nth-child(3) {
-        margin-top: 50px;
-    }
-
 }
 
 @media (max-width: 1186px) {
