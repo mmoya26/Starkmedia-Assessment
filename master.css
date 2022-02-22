@@ -600,6 +600,12 @@ footer {
 
 /* Media Queries */
 
+@media (max-width: 400px) {
+    .personal_banking_section_products {
+        width: 80%;
+    }
+}
+
 @media (max-width: 450px) {
     .swiper-slide {
         margin-right: 20px !important;
@@ -669,14 +675,6 @@ footer {
 @media (max-width: 750px) { 
     .personal_banking_section_title {
         font-size: 1.75rem;
-    }
-
-    .product {
-        flex-basis: 80% !important;
-    }
-
-    .personal_banking_section_products {
-        width: 100%;
     }
 }
 
@@ -763,11 +761,6 @@ footer {
     }
 }
 
-@media (max-width: 1064px) { 
-    .personal_banking_section_products {
-        width: 95%;
-    }
-}
 
 @media (max-width: 1080px) {
     .nav li a {
@@ -785,6 +778,10 @@ footer {
     .header_wrapper {
         max-width: 90%;
     }
+
+    .product {
+        flex-basis: 100%;
+    }
 }
 
 @media (max-width: 1326px) {
@@ -794,12 +791,7 @@ footer {
 
 }
 
-@media (max-width: 1125px) { 
-
-    .product {
-        flex-basis: 70%;
-    }
-
+@media (max-width: 1021px) {
     .product:nth-child(2) {
         margin-top: 50px;
     }
@@ -815,11 +807,13 @@ footer {
     }
 }
 
-@media (max-width: 1250px) { 
-    .personal_banking_section_products {
-        width: 90%;
+@media (max-width: 1530px) {
+    .product:nth-child(3) {
+        margin-top: 50px;
     }
+}
 
+@media (max-width: 1250px) { 
     .dropdown_menu {
         width: 65rem;
         left: -10rem;
@@ -831,10 +825,6 @@ footer {
 }
 
 @media (max-width: 1450px) { 
-    .personal_banking_section_products {
-        width: 85%;
-    }
-
     .dropdown_menu {
         left: -10rem;
         width: 65rem;
@@ -849,10 +839,6 @@ footer {
 }
 
 @media (max-width: 1650px) { 
-    .personal_banking_section_products {
-        width: 75%;
-    }
-
     .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, 
     .swiper-pagination-custom, .swiper-pagination-fraction {
         bottom: -20px;
