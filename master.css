@@ -601,12 +601,6 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 390px) {
-    .personal_banking_section_products {
-        width: 86%;
-    }
-}
-
 @media (max-width: 450px) {
     .swiper-slide {
         margin-right: 20px !important;
@@ -658,6 +652,10 @@ footer {
 
     .promo_section_items_wrapper {
         max-width: 90%;
+    }
+
+    .personal_banking_section_products {
+        width: 86%;
     }
 
     #x_icon {
