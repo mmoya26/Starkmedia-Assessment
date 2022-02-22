@@ -1,18 +1,4 @@
 (() => {
-
-    // Initial statement of Swiper
-    let swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 3,
-        loop: true,
-        loopFillGroupWithBlank: true,
-        navigation: {
-            nextEl: ".next_arrow",
-            prevEl: ".prev_arrow",
-        },
-    });
-
     function setSwiper(){
         // User hasn't resized in 500ms
 
@@ -43,7 +29,7 @@
                 },
             });
         } else {
-            // If window is not less than or equal to 500 px or 1400px set to inital state to show three images
+            // If window is not less than or equal to 500 px or 1400px set to original state to show three images
             let swiper = new Swiper(".mySwiper", {
                 slidesPerView: 3,
                 spaceBetween: 30,
@@ -65,4 +51,7 @@
       clearTimeout(timer);
       timer = setTimeout(setSwiper, 500);
     };
+
+    // This function will be called once the script loads once so that the carousel can be set right away
+    setSwiper();
 })();
